@@ -1,5 +1,8 @@
 import React from 'react'
 import './header.css';
+import people from "../../assets/people.png";
+
+
 const Header = () => {
   return (
     <div className="project_header" id="home">
