@@ -42,12 +42,12 @@
 }
 .project_navbar-sign button,
 .project_navbar-menu-container button{
-    padding:0.6rem 1rem;
+    padding: 0.9rem 1rem;
     color: #fff;
     font-family: var(--font-family);
     font-weight: 500;
-    line-height: 25px;
-   font-size: 18px;
+    line-height: 20px;
+   font-size: 17px;
     background: #00a6ffd6;
     border-radius: 5px;
     border:0;

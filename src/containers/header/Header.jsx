@@ -6,9 +6,9 @@ import people from "../../assets/people.png";
 const Header = () => {
   return (
     <div className="project_header" id="home">
-      <div className="project_header content">
-        <h1 className="gradient__text">Level Up Your Web Development Skills with React</h1>
-        <p>React is a popular JavaScript library used for building user interfaces, particularly for web applications By utilizing a virtual DOM, React efficiently updates only the necessary parts of the actual DOM, boosting performance and rendering speed.Learning React opens up a world of possibilities for web development, allowing developers to create dynamic, fast, and user-friendly applications</p>
+      <div className="project_header-content">
+        <h1 className="gradient__text">Taj Hotels: Luxury Hotels & Resorts in India & the World</h1>
+        <p>Taj Hotels is a chain of luxury hotels and a subsidiary of the Indian Hotels Company Limited, headquartered in Mumbai, India. Incorporated by Jamsetji Tata in 1902, the company is a part of the Tata Group. The company employed over 20,000 people in the year 2010.</p>
         <div className="project_content-input">
           <input type="email" placeholder="Your Email Address"/>
           <button type="button">Get Started</button>
