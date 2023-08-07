@@ -14,7 +14,7 @@ const Header = () => {
           <button type="button">Get Started</button>
         </div> 
         <div className="project_content-people">
-          <img src={people}/>
+          <img src={people}/> <p>1600 ppl have registred</p>
         </div> 
       </div>
     </div>
