@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import {RiMenu3Line , RiCloseLine } from 'react-icons/ri';
-import logo from '../../assets/logo.png';
+import TAJ_02 from '../../assets/TAJ_02.png';
 import './navbar.css';
 
 const Menu=()=>(
@@ -21,7 +21,7 @@ const Navbar = () => {
     <div className="project_navbar">
       <div className="project_navbar-links">
         <div className="project_navbar-logo">
-          <img src={logo} alt="logo" className="logo"/>
+          <img src={TAJ_02} alt="logo" className="logo"/>
         </div>
         <div className="project_navbar-container">
           <p><a href='#home'>Home</a></p>

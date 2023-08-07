@@ -4,6 +4,7 @@
     align-items: center;
     padding: 2rem 6rem;
 }
+
 .project_navbar-links{
     flex:1;
     display: flex;
@@ -31,7 +32,7 @@
 .project_navbar-container p,
 .project_navbar-sign p,
 .project_navbar-menu-container{
-    color: #fff;
+    color: #614f33;
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;
@@ -48,7 +49,7 @@
     font-weight: 500;
     line-height: 20px;
    font-size: 17px;
-    background: #00a6ffd6;
+    background: #8D7348;
     border-radius: 5px;
     border:0;
     outline: none;
