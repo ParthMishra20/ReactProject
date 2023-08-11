@@ -9,6 +9,7 @@ const WhatPROJECT = () => {
       </div>
       <div className="project_heading">
         <h1 className="gradient-text">OFFERS AND PROMOTION</h1>
+        
       </div>
     </div>
   )
