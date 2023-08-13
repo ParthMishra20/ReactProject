@@ -14,12 +14,7 @@ a{
     text-decoration: none;
 }
 
-.gradient__bg{
-    
 
-    /* global 92%+ browsers support */
-    background: ;
-}
 
 .gradient__text{
   background: var(--gradient-text);

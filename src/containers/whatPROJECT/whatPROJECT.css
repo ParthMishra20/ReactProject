@@ -1,0 +1,94 @@
+.project_section-margin{
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem;
+    background: var(--color-footer);
+
+    
+
+    /* ff 3.6+ */
+    background: -moz-radial-gradient(circle at 50% 50%, rgba(220, 192, 144, 1) 0%, rgba(141, 115, 72, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background: -webkit-radial-gradient(circle at 50% 50%, rgba(220, 192, 144, 1) 0%, rgba(141, 115, 72, 1) 100%);
+
+    /* opera 11.10+ */
+    background: -o-radial-gradient(circle at 50% 50%, rgba(220, 192, 144, 1) 0%, rgba(141, 115, 72, 1) 100%);
+
+    /* ie 10+ */
+    background: -ms-radial-gradient(circle at 50% 50%, rgba(220, 192, 144, 1) 0%, rgba(141, 115, 72, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background: radial-gradient(circle at 50% 50%, rgba(220, 192, 144, 1) 0%, rgba(141, 115, 72, 1) 100%);
+}
+ .project-feature{
+    display: flex;
+ }
+
+ .project-feature .features-container{
+    margin: 0;
+
+ }
+
+ .project-feature .features-container-text{
+    max-width: 700px;
+    
+ }
+  
+ .project_heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 0 2rem;
+ }
+
+ .features-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 2rem;
+
+}
+
+
+
+@media screen and (max-width: 850px) {
+    .project_heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+
+    .project_heading p {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    /* Customizing feature component as per needs */
+    .project-feature .features-container {
+        flex-direction: column;
+    }
+
+    /* Customizing feature component as per needs */
+    .project-feature .features-text {
+        margin-top: 0.5rem;
+    }
+
+    .project_heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    /* Customizing feature component as per needs */
+    .features-container .features-container {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+}
+
+   
